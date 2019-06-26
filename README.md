@@ -1,3 +1,6 @@
+이 프로젝트는 고객관리시스템 강의를 따라만드는 프로젝트입니다
+with React !
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
