@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "management",
-=======
-  "name": "managemnet",
->>>>>>> ab476855a312510b88e2e1ef1729c0db1e40d795
   "version": "0.1.0",
   "private": true,
   "dependencies": {
