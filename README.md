@@ -1,5 +1,18 @@
+<<<<<<< HEAD
 ## Management System
 본 프로젝트는 React 고객관리시스템입니다.
+=======
+19/6/27 01:24
+1.class Customer extends React.Component
+2.<Customer
+  name={something.name},
+  >
+3.<h3>{this.props.name}</h3>
+
+19/6/26 23:55
+이 프로젝트는 고객관리시스템 강의를 따라만드는 프로젝트입니다
+with React !
+>>>>>>> ab476855a312510b88e2e1ef1729c0db1e40d795
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
