@@ -9,6 +9,7 @@ import TableBody from '@material-ui/core/TableBody';
 import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
 import {withStyle}from '@material-ui/core/styles';
+import classes from '*.module.css';
 
 const styles= theme =>({
   root:{
@@ -41,9 +42,10 @@ const customers =[
 ]
 class App extends Component{
   render(){
+    const {classes} = this.props;
     return (  
-      <Paper>
-        <Table>
+      <Paper className={classes.root}>
+        <Table className={classes.table}>
           <TableHead>
             <TableRow>
               <TableCell>번호</TableCell>
@@ -66,4 +68,4 @@ class App extends Component{
   } 
 }
 
-export default App;
+export default withStyles(styles)(App);
